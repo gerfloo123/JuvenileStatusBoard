@@ -1,0 +1,85 @@
+ijos2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+        (ADDRESS =
+          (PROTOCOL = TCP)
+          (Host = 164.165.156.163)
+          (Port = 1522)
+        )
+    )
+    (CONNECT_DATA = (SERVICE_NAME = ijos2)
+    )
+  )
+
+ijosprod =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+        (ADDRESS =
+          (PROTOCOL = TCP)
+          (Host = 164.165.156.167)
+          (Port = 1522))
+	    )
+    (CONNECT_DATA = (SERVICE_NAME = ijos2)
+    )
+)  
+
+ijospdb =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+        (ADDRESS =
+          (PROTOCOL = TCP)
+          (Host = 164.165.156.167)
+          (Port = 1521))
+	    )
+    (CONNECT_DATA = (SERVICE_NAME = pdb_ijos2)
+    )
+)
+
+ijostest =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 164.165.156.164)(PORT = 1522))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ijos2)
+    )
+  )
+
+ijosdev =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+        (ADDRESS =
+          (PROTOCOL = TCP)
+          (Host = 164.165.156.172)
+          (Port = 1522)
+        )
+    )
+    (CONNECT_DATA = (SERVICE_NAME = ijos2)
+    )
+  )
+
+ijosid =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+        (ADDRESS =
+          (PROTOCOL = TCP)
+          (Host = 164.165.156.174)
+          (Port = 1521)
+        )
+    )
+    (CONNECT_DATA = (SERVICE_NAME = ijosid)
+    )
+  )
+
+ijosapp =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+        (ADDRESS =
+          (PROTOCOL = TCP)
+          (Host = 164.165.156.174)
+          (Port = 1521)
+        )
+    )
+    (CONNECT_DATA = (SERVICE_NAME = ijosid)
+    )
+  )

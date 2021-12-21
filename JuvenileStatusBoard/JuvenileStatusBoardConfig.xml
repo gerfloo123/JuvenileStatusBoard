@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Service>
+	<Username>landerso</Username>
+	<Password>xxx</Password>
+	<DBname>ijosdev</DBname>
+	<LogComments>The accepted values for CreateLogFiles are Yes or No</LogComments>
+	<CreateLogFiles>Yes</CreateLogFiles>
+	<LogFilePath>d:\IJOS_Files\LogFiles\</LogFilePath>	
+	<ConnectString>User Id=landerso;Password=xxx;Data Source=ijosdev;</ConnectString>
+</Service>
